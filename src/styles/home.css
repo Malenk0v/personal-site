@@ -1,0 +1,42 @@
+.cn-home-root {
+  position: relative;
+}
+
+.cn-home {
+  background-image: url('../img/tel-aviv/TA1.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  filter: grayscale(0.9);
+  animation-name: opacityHome, scale;
+  animation-duration: 2000ms, 4s;
+}
+
+.cn-home-darkblue {
+  animation-name: opacityHome;
+  animation-duration: 2000ms;
+  height: 100vh;
+  background-color: rgba(3, 9, 85, 0.58);
+}
+
+@keyframes opacityHome {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
