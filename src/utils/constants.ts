@@ -52,7 +52,7 @@ export const navIcons = [
   },
   {
     urlPhoto: telegram,
-    url: 'https://www.linkedin.com/in/gmalenkov/',
+    url: 'https://t.me/Malenk0v',
     alt: 'Telegram',
   },
 ];
