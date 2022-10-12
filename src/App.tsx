@@ -11,7 +11,7 @@ function App() {
         {routersHome.map((path) => (
           <Route path={path} element={<Home />} />
         ))}
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/profile/*" element={<Profile />} />
       </Routes>
     </div>
   );

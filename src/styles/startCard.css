@@ -18,6 +18,10 @@
   color: white;
 }
 
+.card-p {
+  font-family: 'Playfair Display', serif;
+}
+
 .card-profile p,
 h4 {
   text-align: center;

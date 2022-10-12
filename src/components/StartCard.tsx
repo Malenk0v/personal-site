@@ -2,7 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/startCard.css';
 
-import { avatar, navIcons } from '../utils/constants';
+import {
+  avatar,
+  navIcons,
+  navProfile,
+  routerProfile,
+} from '../utils/constants';
 
 const StartCard = () => {
   return (
@@ -12,7 +17,7 @@ const StartCard = () => {
           <img className="mb-4 avatar" src={avatar.url} alt={avatar.alt} />
           <div className="card-profile">
             <h4 className="m-0">Malenkov Gleb</h4>
-            <p>Israel, Tel-Aviv</p>
+            <p className="card-p">Israel, Tel-Aviv</p>
           </div>
           <div className="linkItems mt-4">
             {navIcons.map((item) => (
@@ -27,7 +32,10 @@ const StartCard = () => {
               </div>
             ))}
           </div>
-          <Link className="mt-4 myBtn" to="">
+          <Link
+            className="mt-4 myBtn"
+            to={routerProfile + navProfile[0].router}
+          >
             My Profile
           </Link>
         </div>
