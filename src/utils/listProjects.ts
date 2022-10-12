@@ -1,4 +1,4 @@
-import personalSite from '../img/projects/personalSite.png';
+import personalSite from '../img/projects/personalSite.jpg';
 
 type url = string;
 

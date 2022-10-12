@@ -6,14 +6,14 @@ import telegram from '../img/icons/reshot-icon-telegram-LSZVDUKX6M.svg';
 import instagram from '../img/icons/instagram.svg';
 import linkedIN from '../img/icons/linkedIN.svg';
 
-import iAndCacke from '../img/myPhotos/iandcacke.png';
-import maskFace from '../img/myPhotos/maskFace.png';
-import med from '../img/myPhotos/med.png';
-import airport from '../img/myPhotos/IandWifiAir.png';
-import pu1 from '../img/myPhotos/pu1.png';
-import pu2 from '../img/myPhotos/put2.png';
-import pu3 from '../img/myPhotos/put3.png';
-import pu4 from '../img/myPhotos/put4.png';
+import iAndCacke from '../img/myPhotos/iandcacke.jpg';
+import maskFace from '../img/myPhotos/maskFace.jpg';
+import med from '../img/myPhotos/med.jpg';
+import airport from '../img/myPhotos/IandWifiAir.jpg';
+import pu1 from '../img/myPhotos/pu1.jpg';
+import pu2 from '../img/myPhotos/put2.jpg';
+import pu3 from '../img/myPhotos/put3.jpg';
+import pu4 from '../img/myPhotos/put4.jpg';
 
 export const routersHome = ['/', 'home', 'malenkovgleb'];
 export const routerProfile = '/profile';
