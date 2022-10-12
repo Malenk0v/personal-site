@@ -4,7 +4,6 @@ import '../styles/profile.css';
 
 import { navProfile, routerProfile } from '../utils/constants';
 import AboutMe from './profile/AboutMe';
-import Contatcs from './profile/Contatcs';
 import Projects from './profile/Projects';
 const Profile = () => {
   return (
@@ -13,7 +12,11 @@ const Profile = () => {
         <div>
           <ul className="p-0 nav">
             {navProfile.map((nav) => (
-              <Link className="profileNavItem " to={routerProfile + nav.router}>
+              <Link
+                key={nav.title}
+                className="profileNavItem "
+                to={routerProfile + nav.router}
+              >
                 {nav.title}
               </Link>
             ))}
@@ -27,7 +30,6 @@ const Profile = () => {
         <Routes>
           <Route path={navProfile[0].router} element={<AboutMe />} />
           <Route path={navProfile[1].router} element={<Projects />} />
-          <Route path={navProfile[2].router} element={<Contatcs />} />
         </Routes>
       </div>
     </div>

@@ -1,9 +1,11 @@
 import avatarPhoto from '../img/myPhotos/avatar.jpg';
+
 import facebook from '../img/icons/facebook.svg';
 import github from '../img/icons/github.svg';
+import telegram from '../img/icons/reshot-icon-telegram-LSZVDUKX6M.svg';
 import instagram from '../img/icons/instagram.svg';
 import linkedIN from '../img/icons/linkedIN.svg';
-import cleaning from '../img/myPhotos/cleaning.png';
+
 import iAndCacke from '../img/myPhotos/iandcacke.png';
 import maskFace from '../img/myPhotos/maskFace.png';
 import med from '../img/myPhotos/med.png';
@@ -12,6 +14,7 @@ import pu1 from '../img/myPhotos/pu1.png';
 import pu2 from '../img/myPhotos/put2.png';
 import pu3 from '../img/myPhotos/put3.png';
 import pu4 from '../img/myPhotos/put4.png';
+
 export const routersHome = ['/', 'home', 'malenkovgleb'];
 export const routerProfile = '/profile';
 export const avatar = {
@@ -19,7 +22,6 @@ export const avatar = {
   alt: 'Malenkov Gleb',
 };
 export const myPhoto = {
-  cleaning: cleaning,
   maskFace: maskFace,
   iCacke: iAndCacke,
   med: med,
@@ -48,6 +50,11 @@ export const navIcons = [
     url: 'https://www.linkedin.com/in/gmalenkov/',
     alt: 'linkedIN',
   },
+  {
+    urlPhoto: telegram,
+    url: 'https://www.linkedin.com/in/gmalenkov/',
+    alt: 'Telegram',
+  },
 ];
 
 export const navProfile = [
@@ -58,9 +65,5 @@ export const navProfile = [
   {
     title: 'Projects',
     router: '/projects',
-  },
-  {
-    title: 'Conatcs',
-    router: '/conatcs',
   },
 ];

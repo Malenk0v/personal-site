@@ -9,7 +9,7 @@ import {
 
 const AboutMe = () => {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 profile-container">
       <h1>About me</h1>
       <div className="content-about-me row mt-4 align-items-center">
         <img src={avatar.url} alt="Gleb" className="col-6" />
@@ -97,7 +97,7 @@ const AboutMe = () => {
           </tbody>
         </table>
         <Link
-          className="m-5 col-6 btn btn-warning"
+          className="mt-2 mb-5 col-6 btn btn-warning"
           to={routerProfile + navProfile[1].router}
         >
           Projects
